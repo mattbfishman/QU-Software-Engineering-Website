@@ -1,0 +1,159 @@
+.navbar-default {
+  background-color: #0c0492;
+  border-color: #0c66ac;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #bd9638;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #bd9638;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #0c0492;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #bd9638;
+  background-color: #0c66ac;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #0c66ac;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #bd9638;
+  background-color: #0c66ac;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #bd9638;
+  background-color: #0c66ac;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #bd9638;
+  background-color: #0c66ac;
+}
+.navbar-default .navbar-toggle {
+  border-color: #0c66ac;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #0c66ac;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #bd9638;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #bd9638;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #bd9638;
+    background-color: #0c66ac;
+  }
+}
+body { 
+  padding-top: 50px; 
+}
+
+.about-header, .faculty-header, .project-header, .student-life-header, .faq-header{
+  text-align: center;
+  background-color: #3E3C3C;
+  color: white;
+}
+.info-btns{
+  padding-left: 50px;
+}
+.outcome-btns{
+  padding-left: 25%;
+}
+
+.btn-about{
+    color: #ffffff;
+    background-color: #0c0492;
+}
+
+.curriculum-content h2,.curriculum-content h4 {
+  text-align: center;
+}
+
+thead{
+  color:white;
+  background: #bd9638;
+}
+
+tbody{
+  color:#0c0492;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #bd9638;
+}
+
+.curriculum-btns{
+  padding-left: 30%;
+
+}
+.faculty-content{
+  text-align: center;
+}
+hr{
+  display: block;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+}
+.blake-faculty, .ruby-faculty, .christov-faculty {
+  text-align: left;
+}
+.project-content {
+  text-align: center;
+}
+.faq-content h4{
+  font-weight: bold;
+}
+
+.faq-content .col-sm-8{
+  padding-left: 50px;
+}
+
+.faq-pictures{
+  padding-right: 50px;
+  padding-top: 10px;
+}
