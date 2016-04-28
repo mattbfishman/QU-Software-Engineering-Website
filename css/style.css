@@ -97,7 +97,7 @@ body {
   color: white;
 }
 .info-btns{
-  padding-left: 50px;
+  padding-left: 20px;
 }
 .outcome-btns{
   padding-left: 25%;
@@ -107,12 +107,11 @@ body {
     color: #ffffff;
     background-color: #0c0492;
 }
-
 .curriculum-content h2,.curriculum-content h4 {
   text-align: center;
 }
 
-thead{
+.title-head{
   color:white;
   background: #bd9638;
 }
@@ -127,6 +126,9 @@ tbody{
 .curriculum-btns{
   padding-left: 30%;
 
+}
+.curriculum-paragraph{
+  text-align: center;
 }
 .faculty-content{
   text-align: center;
@@ -143,17 +145,30 @@ hr{
   text-align: left;
 }
 .project-content {
-  text-align: center;
+  padding-left: 50px;
 }
 .faq-content h4{
   font-weight: bold;
 }
 
-.faq-content .col-sm-8{
+.faq-content .col-sm-7{
   padding-left: 50px;
 }
 
 .faq-pictures{
   padding-right: 50px;
   padding-top: 10px;
+}
+.table-about{
+  color:red;
+}
+.university{
+  color: #bd9638 !important;
+  background-color: #0c0492 !important;
+}
+.panel{
+    border:none;
+}
+.caption{
+  text-align: center;
 }
